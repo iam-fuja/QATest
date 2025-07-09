@@ -1,4 +1,3 @@
-// src/test/java/ExampleTest.java
 import org.testng.annotations.Test;
 
 public class ExampleTest {
@@ -9,7 +8,7 @@ public class ExampleTest {
     }
 
     @Test
-    public void sampleFailingTest() {
-        assert 2 * 2 == 5 : "This test should fail";
+    public void sampleFixedTest() {
+        assert 2 * 2 == 4 : "This test should pass";
     }
 }
