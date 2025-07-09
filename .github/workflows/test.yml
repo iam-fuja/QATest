@@ -114,7 +114,7 @@ jobs:
 
             Regards,  
             MSDAT Quality Assurance Engineer
-          attachments: test-reports.zip
+          #attachments: test-reports.zip
           secure: true
 
       # 12. Upload to Google Drive
