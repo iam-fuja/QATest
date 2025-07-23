@@ -107,7 +107,7 @@ jobs:
 
             ✅ **Status**: ${{ job.status }}
             📅 **Date**: ${{ github.run_started_at }}
-            🔗 **View Full Logs**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            # 🔗 **View Full Logs**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
             🧪 **Test Summary**:
             (See attached summary file for details.)
@@ -118,10 +118,10 @@ jobs:
           secure: true
 
       # 12. Upload to Google Drive
-      - name: Upload to Google Drive
-        if: always()
-        uses: satackey/action-google-drive@v1.1.1
-        with:
-          file: test-reports.zip
-          folder-id: ${{ secrets.GDRIVE_FOLDER_ID }}
-          credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
+      # - name: Upload to Google Drive
+      #   if: always()
+      #   uses: satackey/action-google-drive@v1.1.1
+      #   with:
+      #     file: test-reports.zip
+      #     folder-id: ${{ secrets.GDRIVE_FOLDER_ID }}
+      #     credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
