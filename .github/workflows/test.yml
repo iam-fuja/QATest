@@ -98,7 +98,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "MSDAT Daily Test Report - ${{ github.workflow }}"
-          to: ummi.abdulsalam@e4email.net,msdat.dashboard@e4email.net,⁠ime@e4email.net,⁠imeasangansi@gmail.com,oyenike.sola@gmail.com
+          to: ummi.abdulsalam@e4email.net,msdat.dashboard@e4email.net,⁠ime@e4email.net,⁠imeasangansi@gmail.com,oyenike.sola@gmail.com,daniel.oyeniyi@e4email.net
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
             Hello Team,
