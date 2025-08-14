@@ -98,7 +98,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "MSDAT Daily Test Report - ${{ github.workflow }}"
-          to: Taiwooladosu1@gmail.com,oyenike.sola@gmail.com
+          to: oyenike.sola@gmail.com
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
             Hello Team,
@@ -107,14 +107,14 @@ jobs:
 
             ✅ **Status**: ${{ job.status }}
             📅 **Date**: ${{ github.run_started_at }}
-            # 🔗 **View Full Logs**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      #      🔗 **View Full Logs**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-            🧪 **Test Summary**:
-            (See attached summary file for details.)
+      #     🧪 **Test Summary**:
+      #     (See attached summary file for details.)
 
             Regards,  
             MSDAT Quality Assurance Engineer
-          #attachments: test-reports.zip
+      #    attachments: test-reports.zip
           secure: true
 
       # 12. Upload to Google Drive
