@@ -112,8 +112,8 @@ jobs:
       #     🧪 **Test Summary**:
       #     (See attached summary file for details.)
 
-            Regards,  
-            MSDAT Quality Assurance Engineer
+      #      Regards,  
+      #      MSDAT Quality Assurance Engineer
       #    attachments: test-reports.zip
           secure: true
 
