@@ -106,7 +106,7 @@ jobs:
             The MSDAT Daily Automated Test has been completed.
 
             ✅ **Status**: ${{ job.status }}
-            📅 **Date**: ${{ github.run_started_at }}
+      #      📅 **Date**: ${{ github.run_started_at }}
       #      🔗 **View Full Logs**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
       #     🧪 **Test Summary**:
